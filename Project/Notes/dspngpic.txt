@@ -1,0 +1,48 @@
+Logo digi signs
+
+<div >
+            <img id="dspng" src="D:\Visual Studio Code\Project\Digisignspng.png">
+
+        </div>
+
+
+Admin Square
+
+
+<div class="square">
+          <div class="main1">
+            <img src="D:\Visual Studio Code\Project\adminpng.png" style="width:150px;height:auto;" >
+            </div>
+    
+      </div>
+
+
+
+About Us...
+
+   <div class="main">
+              <center>
+            <font  color="" face="Times New Roman" style="font-size:100px;"><b>About Us</b></font>
+              </center>
+                <br><br><br><br>
+                <font  color="" face="Arial" style="font-size:25px;">
+                
+            
+                    
+              Language is the normal way for humans to communicate. In this world, people use different languages to communicate with 
+            each other in school, college, job place, home etc… Like that, the deaf people too use a language to communicate. 
+            But, most of the people do not know about this language. Because they are not aware about this language. It could be the 
+            responsibility of us deaf people to provide awareness about sign language and also to develop it fully. This website is a 
+            part of doing so. <br><br>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+
+            Degree courses deal with many technical terms. There are many terms in Banking and IT. But we do not have signs for all 
+            these terms. The aim of this website is to create a repository for technical term signs related to Banking and IT. This 
+            application will help to collect signs for words from users, which can be voted and then approved by the admin. And this 
+            sign can be followed in future.
+            </font>
+            
+            </div>
