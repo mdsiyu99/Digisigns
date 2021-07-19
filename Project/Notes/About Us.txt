@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <title>
+            Digisigns
+        </title>
+
+        <style>
+
+            body 
+            {
+                 margin:0;
+                 }
+
+            #bgcolor
+            {
+                background-color: #808080;
+            }
+
+        
+            .sidenav 
+            {
+            height: 100%;
+            width: 360px;
+            position: fixed;
+            
+            background-color: #111;
+            padding-top: 40px;
+            }
+
+            .sidenav a 
+            {
+             padding: 6px 6px 6px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            }
+
+            .sidenav a:hover 
+            {
+            color: #f1f1f1;
+            }
+
+            .sidenav a.active 
+            {
+            background-color: #04AA6D;
+            color: black;
+            }
+
+            .main 
+            {
+            margin-left: 380px; 
+            }
+
+            #main
+            {
+            margin-left: 350px; 
+            }
+
+            .main1 
+            {
+            margin-left: 1350px; 
+            }
+
+            .square
+             {
+                height: 100px;
+                position: fixed;
+                top: 0;
+                margin-left: 360px; 
+                 width: 1550px;
+                background-color:#111;
+            }
+
+
+
+
+
+            .icon-bar {
+            width: 76%;
+            margin-left: 360px; 
+            background-color: #555;
+            overflow: auto;
+            }
+
+
+
+            .icon-bar a 
+            {
+            float: left;
+            width: 140px;
+            text-align: center;
+            padding: 12px 0;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 36px;
+            }   
+
+            .icon-bar a:hover {
+            background-color: #000;
+            }   
+
+            .active 
+            {
+
+                background-color: #04AA6D;
+            }
+
+
+
+   
+        </style>
+    </head>
+    
+    <body id="bgcolor">
+
+        
+
+        <div class="sidenav">
+
+            <img src="Pictures/Digisignspng.png" style="width:350px;height:auto;" >
+            <center>
+            <font  color="blue" face="Brush Script MT" style="font-size:24px;">“Signs are to eyes what words are to ears.”</font>
+            </center>
+            <br>
+            <hr>
+                <br><br><br><br>
+            <a href="Digisigns.html" style="padding-top: 60px;padding: 6px 6px 6px 100px;">Home</a>
+            <a class="active" href="AboutUs.html" style="padding: 6px 6px 6px 100px;">About Us</a>
+            <a href="Upload.html" style="padding: 6px 6px 6px 100px;">Upload</a>
+            <a href="Voting.html" style="padding: 6px 6px 6px 100px;">Voting</a>
+            <a href="Contactus.html" style="padding: 6px 6px 6px 100px;">Contact Us</a>
+          </div>
+
+          
+
+          <div class="icon-bar">
+            <a  href="Digisigns.html"><img src="Pictures/homepng.png" style="width:150px;height:60px;"></a> 
+            <a class="active" href="AboutUs.html"><img src="Pictures/aboutuspng.png" style="width:150px;height:60px;"></a> 
+            <a href="Upload.html"><img src="Pictures/uploadpng.png" style="width:150px;height:60px;"></a> 
+            <a href="Voting.html"><img src="Pictures/votingpng.png" style="width:150px;height:60px;"></a> 
+            <a href="Gallery.html"><img src="Pictures/gallerypng.png" style="width:150px;height:60px;"></a> 
+            <a  href="Admin.html"><img src="Pictures/adminpng.png" style="width:150px;height:60px;"></a>
+            <a  href="Contactus.html"><img src="Pictures/contactuspng.png" style="width:150px;height:60px;"></a>
+            
+          </div>
+
+            
+          <style>
+
+          .container 
+          {
+            position: relative;
+            font-family: Brush Script MT;
+            font-size: 25px;
+            opacity: 0.;
+          }
+          
+          .text-block {
+            position: absolute;
+            bottom: 1px;
+            right: 12%;
+            text-shadow: 6px 6px 4px #000000;
+            color: rgb(199, 15, 216);
+            padding-left: 20px;
+            padding-right: 20px;
+            
+          }
+
+          </style>
+
+          
+
+
+          <div class="main">
+              <br><br>
+
+            <div class="container">
+                
+                <img src="D:\Visual Studio Code\Project\Pictures\languagebg.jpg" style="width: 98%; height: 30%;">
+                <div class="text-block">
+                    
+                  <h1>
+                      
+                      
+                    <b>A different language is a different vision of life...</b>  
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    - Federico Fellini
+                
+                
+                </h1>
+                  
+                </div>
+              </div>
+              
+            
+
+            
+            <br><br><br><br>
+
+            <font>
+                <font  color="" face="Arial" style="font-size:25px;">
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+              Language is the normal way for humans to communicate. In this world, people use different languages to communicate with 
+            each other in school, college, job place, home etc… Like that, the deaf people too use a language to communicate. 
+            But, most of the people do not know about this language. Because they are not aware about this language. It could be the 
+            responsibility of us deaf people to provide awareness about sign language and also to develop it fully. This website is a 
+            part of doing so. <br><br>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+
+            Degree courses deal with many technical terms. There are many terms in Banking and IT. But we do not have signs for all 
+            these terms. The aim of this website is to create a repository for technical term signs related to Banking and IT. This 
+            application will help to collect signs for words from users, which can be voted and then approved by the admin. And this 
+            sign can be followed in future.
+            </font>
+
+
+            <font  color="" face="Times new roman" style="font-size:60px;">
+                <center>
+                    <br>
+            "Sign language is a dance with words, To be enjoyed from babyhood though childhood to adulthood"
+            </center>
+            </font>
+            </div>
+          
+
+    </body>
+</html>
