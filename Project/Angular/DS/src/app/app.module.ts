@@ -10,6 +10,7 @@ import { VotingComponent } from './voting/voting.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     VotingComponent,
     GalleryComponent,
     AdminComponent,
-    ContactusComponent
+    ContactusComponent,
+    UploadvideosComponent
   ],
   imports: [
     BrowserModule,

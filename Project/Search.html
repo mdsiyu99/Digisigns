@@ -91,25 +91,22 @@
           }
 
           input[type=text] {
-                  width: 130px;
+                  width: 80%;
                   box-sizing: border-box;
                   border: 2px solid #ccc;
                   border-radius: 4px;
                   font-size: 16px;
                   background-color: white;
                   padding: 12px 20px 12px 40px;
-                  -webkit-transition: width 0.4s ease-in-out;
-                  transition: width 0.4s ease-in-out;
+
                 }
                 
-                input[type=text]:focus {
-                  width: 80%;
-                }
+              
 
 
                 .button 
                 {
-                background-color: green; 
+                background-color: #00008B; 
                 border: none;
                 color: white;
                  padding: 15px 32px;
@@ -123,29 +120,31 @@
    
         </style>
 
-                    <script>
+            <script>
             function myFunction() {
-             
-              var fruits = document.getElementById("myInput").value;
+             var text;
+              var words = document.getElementById("myInput").value;
             
-              switch(fruits) {
-                case "Banana":
+              switch(words) {
+                case "Mouse":
                 var x = document.createElement("VIDEO");
                 x.setAttribute("src", "mouse.mp4");
                 x.setAttribute("width", "300");
                 x.setAttribute("height", "200");
                 x.setAttribute("controls", "controls");
                 document.body.appendChild(x);
-                document.getElementById("demo").innerHTML = x;
                 break;
-                case "Orange":
-                text = "I am not a fan of orange.";
-                break;
-                case "Apple":
-                text = "How you like them apples?";
+                case "Keyboard":
+                var x = document.createElement("VIDEO");
+                x.setAttribute("src", "keyboard.mp4");
+                x.setAttribute("width", "300");
+                x.setAttribute("height", "200");
+                x.setAttribute("controls", "controls");
+                document.body.appendChild(x);
                 break;
                 default:
-                text = "I have never heard of that fruit...";
+                text = "This word is not added yet. If,You like to add new videos go to the upload module";
+                document.getElementById("demo").innerHTML = text;
                 break;
               }
               
@@ -153,7 +152,7 @@
             </script>
     </head>
     
-    <body  id="bgcolor">
+    <body id="bgcolor">
 
         
 
@@ -184,7 +183,7 @@
               <h1>
                   
                   <center>
-                <b>"Signs are to eyes what words are to ears."</b>  
+                <b>Signs are to eyes what words are to ears.”</b>  
                 </center>
             
             </h1>
@@ -196,70 +195,22 @@
 
           <div >
 
-               <a href="Search.html">
-                <button type="submit" class="button" style="margin-left: 65px;">Click here to Search Videos</button>
-                </a>
+
+          
 
                 <br><br>
-  
-            <div>
-              <a href="Videos/mouse.mp4" style="margin-left: 50px;">
-              <video width="300" height="200" controls>
-                <source src="Videos/mouse.mp4" type="video/mp4">
-              </video>
-              </a>
-           
-
-              <a href="Videos/keyboard.mp4" style="margin-left: 50px; ">
-                <video width="300" height="200" controls>
-                  <source src="Videos/keyboard.mp4" type="video/mp4">
-                </video>
-                </a>
-
-                <a href="Pictures\1.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\1.jpg" id="vid" width="300" height="200">
-                </a>
-                
-
-                <a href="Pictures\2.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\2.jpg" width="300" height="200">
-                </a>
-
-                <a href="Pictures\3.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\3.jpg" width="300" height="200">
-                </a>
-                
-
-                <a href="Pictures\4.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\4.jpg" width="300" height="200">
-                </a>
-
-                <a href="Pictures\5.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\5.jpg" width="300" height="200">
-                </a>
-
-                <a href="Pictures\6.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\6.jpg" width="300" height="200">
-                </a>
-
-                <a href="Pictures\7.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\7.jpg" width="300" height="200">
-                </a>
-
-                <a href="Pictures\8.jpeg" style="margin-left: 50px; ">
-                    <img src="Pictures\8.jpeg" width="300" height="200">
-                </a>
 
 
-                <a href="Pictures\9.jpg" style="margin-left: 50px; ">
-                    <img src="Pictures\9.jpg" width="300" height="200">
-                </a>
+        
+                <input type="text" id="myInput" name="search" placeholder="Enter the word name...." style="margin-left: 50px; ">
+                <button type="submit" class="button" onclick="myFunction()">Search</button>
 
+
+                <div class="container" style="margin-left: 50px;">
+                <p id="demo" style="color: white;"></p>
                 </div>
-            
 
-            
-
+    
             </div>
 
 

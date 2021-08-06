@@ -6,6 +6,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { UploadComponent } from './upload/upload.component';
+import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
 import { VotingComponent } from './voting/voting.component';
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path:'contactus',
     component:ContactusComponent
+  },
+  {
+    path:'uploadvideos',
+    component:UploadvideosComponent
   }
 ];
 

@@ -1,6 +1,7 @@
 body 
 {
      margin:0;
+     
      }
 
 #bgcolor
@@ -65,7 +66,7 @@ background-color: #555;
 {
 position: relative;
 font-family: 'Times New Roman', Times, serif;
-
+text-align: center;
 
 
 font-size: 25px;
@@ -80,4 +81,75 @@ color: whitesmoke;
 padding-left: 20px;
 padding-right: 20px;
 
+}
+
+.para
+{
+border: 1px solid gray;
+padding: 8px;
+border-color: white;
+
+}
+
+.parahead
+{
+text-align: center;
+text-transform: uppercase;
+color: #4CAF50;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+* {
+box-sizing: border-box;
+}
+
+
+
+.main {
+max-width: 1000px;
+margin: auto;
+}
+
+h1 {
+font-size: 50px;
+word-break: break-all;
+}
+
+.row {
+margin: 8px -16px;
+}
+
+
+.column {
+padding: 8px;
+}
+
+.column {
+float: left;
+width: 25%;
+}
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.content {
+background-color: white;
+padding: 10px;
+}
+
+
+
+.column {
+width: 50%;
 }

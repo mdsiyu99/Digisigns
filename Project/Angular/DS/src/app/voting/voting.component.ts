@@ -12,4 +12,6 @@ export class VotingComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
 }
