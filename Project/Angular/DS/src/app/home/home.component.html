@@ -44,52 +44,90 @@
         </video>
         </a>
     
-        <a href="assets\1.jpg" style="margin-left: 50px; ">
-            <img src="assets\1.jpg" width="300" height="200">
-        </a>
+        <a href="assets/Class.mp4" style="margin-left: 50px; ">
+          <video width="300" height="200" controls>
+            <source src="assets/Class.mp4" type="video/mp4">
+          </video>
+          </a>
         
     
-        <a href="assets\2.jpg" style="margin-left: 50px; ">
-            <img src="assets\2.jpg" width="300" height="200">
-        </a>
+          <a href="assets/Inheritance.mp4" style="margin-left: 50px; ">
+            <video width="300" height="200" controls>
+              <source src="assets/Inheritance.mp4" type="video/mp4">
+            </video>
+            </a>
     
-        <a href="assets\3.jpg" style="margin-left: 50px; ">
-            <img src="assets\3.jpg" width="300" height="200">
-        </a>
+            <a href="assets/Object.mp4" style="margin-left: 50px; ">
+              <video width="300" height="200" controls>
+                <source src="assets/Object.mp4" type="video/mp4">
+              </video>
+              </a>
         
     
-        <a href="Pictures\4.jpg" style="margin-left: 50px; ">
-            <img src="Pictures\4.jpg" width="300" height="200">
-        </a>
+              <a href="assets/Angular.mp4" style="margin-left: 50px; ">
+                <video width="300" height="200" controls>
+                  <source src="assets/Angular.mp4" type="video/mp4">
+                </video>
+                </a>
     
-        <a href="Pictures\5.jpg" style="margin-left: 50px; ">
-            <img src="Pictures\5.jpg" width="300" height="200">
-        </a>
+                <a href="assets/Loan.mp4" style="margin-left: 50px; ">
+                  <video width="300" height="200" controls>
+                    <source src="assets/Loan.mp4" type="video/mp4">
+                  </video>
+                  </a>
     
-        <a href="Pictures\6.jpg" style="margin-left: 50px; ">
-            <img src="Pictures\6.jpg" width="300" height="200">
-        </a>
+                  <a href="assets/Market.mp4" style="margin-left: 50px; ">
+                    <video width="300" height="200" controls>
+                      <source src="assets/Market.mp4" type="video/mp4">
+                    </video>
+                    </a>
     
-        <a href="Pictures\7.jpg" style="margin-left: 50px; ">
-            <img src="Pictures\7.jpg" width="300" height="200">
-        </a>
+                    <a href="assets/Interest.mp4" style="margin-left: 50px; ">
+                      <video width="300" height="200" controls>
+                        <source src="assets/Interest.mp4" type="video/mp4">
+                      </video>
+                      </a>
     
-        <a href="Pictures\8.jpeg" style="margin-left: 50px; ">
-            <img src="Pictures\8.jpeg" width="300" height="200">
-        </a>
-    
-    
-        <a href="Pictures\9.jpg" style="margin-left: 50px; ">
-            <img src="Pictures\9.jpg" width="300" height="200">
-        </a>
-    
+                      <a href="assets/Trade.mp4" style="margin-left: 50px; ">
+                        <video width="300" height="200" controls>
+                          <source src="assets/Trade.mp4" type="video/mp4">
+                        </video>
+                        </a>
 
-        
-    
-
-    
     
     </div>
+    
+
+    
+     
+        <div [ngSwitch]="val" style="color: white;">
+          <div *ngSwitchCase="1">One</div>
+          <div *ngSwitchCase="2">Two</div>
+          <div *ngSwitchCase="3">Three</div>
+          <div *ngSwitchCase="4">Four</div>
+          <div *ngSwitchCase="5">Five</div>
+          <div *ngSwitchDefault>This is Default</div>
+        </div>
+     
+
+        <input type="text" (keyup)="onKey($event)">
+        <p style="color: white;">{{values}}</p>
+
+
+         
+         
+        
+
+
+
+
+        
+
+
+
+        
+         
+      
 
     
 </body>

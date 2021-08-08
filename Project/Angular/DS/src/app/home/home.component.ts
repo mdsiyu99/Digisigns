@@ -7,7 +7,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  val='';
+
+  values = 'Inheritance';
+
+
+  
+
+  num='';
+
+
+
+
+  onKey(event: any) { 
+    this.values += event.target.value + ' | ';
+  }
+
+  
+
+
+
+
+ 
+
+  constructor() { 
+
+    
+  }
 
   ngOnInit(): void {
   }
