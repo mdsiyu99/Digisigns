@@ -11,6 +11,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
     GalleryComponent,
     AdminComponent,
     ContactusComponent,
-    UploadvideosComponent
+    UploadvideosComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
