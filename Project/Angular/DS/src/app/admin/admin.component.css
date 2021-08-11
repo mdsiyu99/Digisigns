@@ -90,6 +90,10 @@ padding-right: 20px;
 text-align: center;
 }
 
+.alertDanger{
+    color:red;
+}
+
 .button 
       {
       background-color: green; 
@@ -103,5 +107,9 @@ text-align: center;
       margin: 4px 2px;
       cursor: pointer;
       }
+
+/* .button1{
+    color:green;
+} */
 
       

@@ -23,16 +23,38 @@
               <img src="assets/DSpng.png" style="width:150px;height:auto;margin:0;padding-top: 10px;" > 
 
               <br>
+              <div>
+                <form (ngSubmit)="redirect()" #aForm="ngForm">
+                  <p>
+                    <label for="username"><font size="5px"> User Name: </font></label>
+                      <input type="text" placeholder="Username" size="50" id="username" [(ngModel)]="adminForm.username" name="username" #username="ngModel" required minlength="6"><br>
+                  </p>
 
-              <font size="5px"> User Name: </font>
-              <input type="text" id="uname" name="uname" placeholder="Email id" size="50"><br>
-              <font size="5px">Password &nbsp;: </font>
-              <input type="password" id="fname" name="fname" placeholder="Password" maxlength="4" size="50"><br><br>
+                  <div *ngIf="username.invalid && (username.dirty || username.touched)" class="alertDanger">
+                    <div *ngIf="username.errors?.required">
+                      <font size="5px">Name is required.</font>
+                    </div>
+                    <div *ngIf="username.errors?.minlength">
+                     <font size="5px"> Name should be 4 characters.</font>
+                    </div>
+                  </div>
+                    
+                  <p>
+                    <label for="password"><font size="5px">Password &nbsp;: </font></label>
+                      <input type="password" placeholder="Password" size="50" id="password" [(ngModel)]="adminForm.password" name="password" #password="ngModel" required><br><br>
+                  </p>  
+
+                  <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alertDanger">
+                    <div *ngIf="password.errors?.required">
+                      <font size="5px">Password is required.</font>
+                    </div>
+                  </div>
+                      <!-- <a href="#" class="button"> Login </a> -->
+                      <button type="submit" [disabled]="aForm.invalid" class="button button1"><font size="5px">LOGIN</font></button>
+
               
-              <a href="#" class="button"> Login </a>
-
-              
-
+                </form>
+              </div>
               <br><br>
               
               
@@ -46,7 +68,7 @@
 
           </div>
 
-          <router-outlet></router-outlet>
+          <!-- <router-outlet></router-outlet> -->
     
       
     
