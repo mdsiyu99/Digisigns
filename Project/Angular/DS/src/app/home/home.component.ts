@@ -19,6 +19,10 @@ export class HomeComponent implements OnInit {
 
 
 
+
+  
+
+
   onKey(event: any) { 
     this.values += event.target.value + ' | ';
   }
@@ -26,7 +30,8 @@ export class HomeComponent implements OnInit {
   
 
 
-
+ 
+    
 
  
 

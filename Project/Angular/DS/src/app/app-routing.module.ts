@@ -5,6 +5,7 @@ import { AdminComponent } from './admin/admin.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
+import { SignupComponent } from './signup/signup.component';
 import { UploadComponent } from './upload/upload.component';
 import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
 import { VotingComponent } from './voting/voting.component';
@@ -47,6 +48,11 @@ const routes: Routes = [
   {
     path:'uploadvideos',
     component:UploadvideosComponent
+  },
+
+  {
+    path:'signup',
+    component:SignupComponent
   }
 ];
 
