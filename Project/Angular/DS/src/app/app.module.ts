@@ -11,11 +11,10 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
-<<<<<<< HEAD
-import { FormsModule } from '@angular/forms';
-=======
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './signup/signup.component';
->>>>>>> f9fba5adad91715ae7c8acb6a9e8aab66317391b
+
 
 @NgModule({
   declarations: [
@@ -34,6 +33,7 @@ import { SignupComponent } from './signup/signup.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
