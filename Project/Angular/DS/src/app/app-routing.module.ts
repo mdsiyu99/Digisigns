@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { UploadComponent } from './upload/upload.component';
 import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
 import { VotingComponent } from './voting/voting.component';
+import { CurdComponent } from './curd/curd.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,11 @@ const routes: Routes = [
   {
     path:'signup',
     component:SignupComponent
+  },
+
+  {
+    path:'curd',
+    component:CurdComponent
   }
 ];
 

@@ -14,6 +14,7 @@ import { UploadvideosComponent } from './uploadvideos/uploadvideos.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignupComponent } from './signup/signup.component';
+import { CurdComponent } from './curd/curd.component';
 
 
 @NgModule({
@@ -27,13 +28,14 @@ import { SignupComponent } from './signup/signup.component';
     AdminComponent,
     ContactusComponent,
     UploadvideosComponent,
-    SignupComponent
+    SignupComponent,
+    CurdComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
     
   ],
   providers: [],

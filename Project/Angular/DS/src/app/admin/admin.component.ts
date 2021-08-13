@@ -3,6 +3,9 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router, ROUTER_CONFIGURATION, ɵROUTER_PROVIDERS } from '@angular/router';
 import { AppRoutingModule } from '../../app/app-routing.module';
 import { GalleryComponent } from '../gallery/gallery.component';
+import { CurdComponent } from '../curd/curd.component';
+
+
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
@@ -11,16 +14,16 @@ import { GalleryComponent } from '../gallery/gallery.component';
 })
 export class AdminComponent implements OnInit {
   // adminForm!: FormGroup;
-  constructor() {
+  constructor(private router: Router){ }
 
-   }
   adminForm = {username: '', password: ''};
   // adminForm = new FormGroup();
   redirect()
   {
-    alert("Welcome !!");
+    //  alert("Welcome !!");
     // this.router.navigateByUrl('/upload');
     // this.router.navigate('');    
+    this.router.navigate(['/curd']);
   }
 
   ngOnInit(): void { }
